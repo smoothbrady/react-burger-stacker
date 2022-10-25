@@ -1,5 +1,5 @@
 import './App.css'
-import BurgerStacker from './BurgerStacker'
+import BurgerStacker from './components/BurgerStacker'
 
 function App() {
   return (
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

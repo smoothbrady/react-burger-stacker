@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import IngredientList from './IngredientList'
+import IngredientsList from './IngredientsList'
 import BurgerPane from './BurgerPane'
 
 // burger stacker component is the parent of BurgerPane and IngredientList
@@ -67,7 +67,7 @@ const BurgerStacker = () => {
             <>
                 <h1>Burger Stacker</h1>
                 <div className='panes'>
-                    <IngredientList 
+                    <IngredientsList 
                         ingredients={ingredients}
                         add={addToStack}
                     />

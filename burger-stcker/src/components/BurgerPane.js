@@ -1,7 +1,7 @@
 // this is where the burger happens
 import React from 'react'
 // burger pane needs to display ingredient components, similarly to how ingredientlist does
-import Ingredient from './Ingredient'
+import Ingredient from '../Ingredient'
 
 const BurgerPane = ({ ingredients, remove, clear }) => {
     // burger pane will eventually get props(ingredients), and should loop and display those similar to the ingredientList

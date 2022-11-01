@@ -1,5 +1,5 @@
 import React from 'react'
-import Ingredient from './Ingredient'
+import Ingredient from '../Ingredient'
 
 // ingredient list will loop over props(ingrdients)
 // produce one Ingredient component for each item in the array
